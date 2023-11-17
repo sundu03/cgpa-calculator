@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #222; /* Changed background color to dark gray */
+  }
+  
+  .calculator {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f00; /* Changed background color to red */
+  }
+  
+  input, select, button {
+    margin: 10px;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  button {
+    cursor: pointer;
+    background-color: #000; /* Changed background color to black */
+    color: #fff; /* Changed text color to white */
+  }
