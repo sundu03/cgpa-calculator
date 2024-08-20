@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     return render_template('index.html')
-
+#iuyghy
 @app.route('/calculate', methods=['POST'])
 def calculate():
     total_credits = 0
