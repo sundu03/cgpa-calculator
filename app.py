@@ -32,4 +32,4 @@ def get_grade_points(grade):
     return grade_points_dict.get(grade, 0)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True,port=5001)
